@@ -1,0 +1,241 @@
+  <div class="hero_carosel owl-carousel owl-theme">
+         <div class="item">
+            <div class="hero-img">
+               <img src="https://cdn.pixabay.com/photo/2018/03/12/12/32/woman-3219507__340.jpg" alt="">  
+            </div>
+            <div class="desc ">
+               <span class="tag " >Welcome</span   >
+               <h2>Photography is on it's way.</h2>
+               <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+               <p class="carsl_btn"><a href="#" class="btn-gradient-bg">View Galleries </a></p>
+            </div>
+         </div>
+         <div class="item">
+            <div class="hero-img">
+               <img src="https://cdn.pixabay.com/photo/2016/12/30/10/03/dance-1940245__340.jpg" alt="">  
+            </div>
+            <div class="desc ">
+               <span class="tag ">Discover</span>
+               <h2 >Discover New Things</h2>
+               <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+               <p class="carsl_btn"><a href="#" class="btn-gradient-bg">Learn More</a></p>
+            </div>
+         </div>
+         <div class="item">
+            <div class="hero-img">
+               <img src="https://cdn.pixabay.com/photo/2015/01/15/13/06/model-600238__340.jpg" alt="">  
+            </div>
+            <div class="desc ">
+               <span class="tag ">Photography</span>
+               <h2>Capture interesting things.</h2>
+               <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+               <p class="carsl_btn"><a href="#" class="btn-gradient-bg">View More</a></p>
+            </div>
+         </div>
+         <div class="item">
+            <div class="hero-img">
+               <img src="https://cdn.pixabay.com/photo/2017/11/02/03/35/gothic-2910057__340.jpg" alt="">  
+            </div>
+            <div class="desc">
+               <span class="tag">Work Hard</span>
+               <h2>creative minds</h2>
+               <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+               <p class="carsl_btn"><a href="#" class="btn-gradient-bg">Learn More</a></p>
+            </div>
+         </div>
+         <div class="item">
+            <div class="hero-img">
+               <img src="https://cdn.pixabay.com/photo/2016/11/29/02/28/attractive-1866858__340.jpg" alt="">  
+            </div>
+            <div class="desc ">
+               <span class="tag">Passion</span>
+               <h2>Multimedia Channel</h2>
+               <p class="carsl_cnt">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+               <p class="carsl_btn"><a href="#" class="btn-gradient-bg">Learn More</a></p>
+            </div>
+         </div>
+      </div>
+
+
+
+
+<style>
+.hero_carosel{height:auto;width:100%;}/*not necessary change it according to your need*/
+.desc {
+   position: absolute;
+   padding: 8%;
+   z-index: 9;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%); 
+   color:#fff;
+
+   }
+   .hero_carosel img{
+    width: 100%;
+    height :69vh;
+   }
+
+   .hero-img{
+      position: relative;
+   }
+
+
+   .hero-img:before {
+       background: rgba(0, 0, 0, 0.38);
+       content: '';
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+   }
+
+   .btn-gradient-bg {
+       color: #fff;
+       display: inline-block;
+       padding: 11px 33px;
+       background: linear-gradient(to right, #f05874 0%, #fc6a2a 100%);
+       border-radius: 30px;
+   }
+   .delay-1 {
+   animation-delay: .2s;
+   }
+   .delay-2 {
+   animation-delay: .4s;
+   }    
+   .delay-3 {
+   animation-delay: .6s;
+   }    
+   .delay-4 {
+   animation-delay: .8s;
+   }
+   .hero_carosel .owl-nav button.owl-prev,.hero_carosel .owl-nav button.owl-next{
+        background: transparent;
+      position: absolute;
+      bottom: 50%;
+      right: 50%;
+     
+   }
+
+   .hero_carosel .owl-nav button.owl-prev{
+      left: 0
+   }
+
+   .hero_carosel .owl-nav button.owl-next{
+      right: 0
+   }
+
+  .hero_carosel i.owl-direction {
+       margin: 0 13px;
+       font-size: 3em;
+       padding: 0;
+       color: #607D8B;
+   }
+   .owl-theme .owl-nav [class*=owl-] {
+    background: transparent;
+   }
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: transparent;
+}
+   .hero_carosel .owl-nav button.owl-next,.hero_carosel .owl-nav button.owl-prev{
+       outline: none;
+       border: none;
+      background: transparent;
+       }
+}
+
+.tag{
+   display: inline-block;
+}
+@keyframes fadeInUp{0%{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:translateZ(0)}}.fadeInUp{animation-name:fadeInUp}
+.owl-carousel {
+touch-action: manipulation;
+}
+
+/* line 64, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_testmonial.scss */
+.hero_carosel.owl-theme .owl-dots {
+position: absolute;
+left: 0;
+right: 0;
+bottom: 5%;
+text-align: center;
+}
+/* line 70, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_testmonial.scss */
+.hero_carosel.owl-theme .owl-dots .owl-dot {
+width: 12px;
+height: 12px;
+background: #AAB1B7;
+display: inline-block;
+border-radius: 50%;
+margin: 0 5px;
+}
+/* line 77, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_testmonial.scss */
+.hero_carosel .owl-dots .owl-dot.active {
+background: #FF4A52;
+}
+
+  @keyframes zoom {
+from {
+transform: scale(1, 1);
+}
+to {
+transform: scale(1.3, 1.3);
+}
+}
+.zoomimage {
+-webkit-animation: zoom 10s;
+-o-animation: zoom 10s;
+animation: zoom 10s;
+overflow: hidden;
+}
+
+</style>
+
+
+
+<script>
+  var heroSlider = $('.hero_carosel');
+            heroSlider.on('initialized.owl.carousel changed.owl.carousel', function(e) {
+                if (!e.namespace)  {
+                  return;
+                }
+              }).owlCarousel({   
+               animateOut: 'fadeOut',
+                  animateIn: 'fadeIn',
+                  autoplay: true,
+                  loop:true,
+                  margin:0,
+                  nav: true,
+                  dots: true,
+                  mouseDrag: true,
+               autoplayHoverPause:true,
+                  items: 1,
+                  navText: [
+                     "<i class='fa fa-angle-left'></i>",
+                     "<i class='fa fa-angle-right'></i>"
+                  ]
+               });
+            $(".owl-item.active").find("img").addClass("zoomimage");
+                $(".owl-item.active .tag").addClass('animated fadeInUp delay-1');
+              $(".owl-item.active h2").addClass('animated fadeInUp delay-2');
+              $(".owl-item.active .carsl_cnt").addClass('animated fadeInUp delay-3');
+              $(".owl-item.active .carsl_btn").addClass('animated fadeInUp delay-4');
+         
+         
+                $(".hero_carosel").on('change.owl.carousel', function(event) {
+                  
+                  var item = event.item.index-2;
+                  var item2 = event.item.index-2;
+                  $(".owl-item").find("img").removeClass("zoomimage");
+                  $('.tag').removeClass('animated fadeInUp delay-1');
+                  $('h2').removeClass('animated fadeInUp delay-2');
+                  $('.carsl_cnt').removeClass('animated fadeInUp delay-3');
+                  $('.carsl_btn').removeClass('animated fadeInUp delay-4');
+                  $(".owl-item").not('.cloned').eq(item2).find("img").addClass("zoomimage");
+                  $('.owl-item').not('.cloned').eq(item).find('.tag').addClass('animated fadeInUp delay-1');
+                  $('.owl-item').not('.cloned').eq(item).find('h2').addClass('animated fadeInUp delay-2');
+                  $('.owl-item').not('.cloned').eq(item).find('.carsl_cnt').addClass('animated fadeInUp delay-3');
+                  $('.owl-item').not('.cloned').eq(item).find('.carsl_btn').addClass('animated fadeInUp delay-4');
+                  
+                });</script>
